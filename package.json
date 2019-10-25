@@ -1,7 +1,7 @@
 {
-  "name": "victorigortemplate",
+  "name": "templateCurrent1",
   "version": "1.0.0",
-  "description": "My jekyll blog template.",
+  "description": "Personal site template | based on jekyll and other template",
   "main": "gulpfile.js",
   "scripts": {
     "test": "test"
@@ -15,8 +15,6 @@
     "jekyll",
     "js"
   ],
-  "author": "Victor Igor",
-  "license": "ISC",
   "devDependencies": {
     "autoprefixer-stylus": "^0.4.0",
     "browser-sync": "^1.9.0",
