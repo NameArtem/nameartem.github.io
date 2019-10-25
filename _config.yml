@@ -3,7 +3,6 @@ title: Artem's personal place on the Internate
 description: "A little bit about my work"
 #baseurl: "/space-jekyll-template" # for test: remove string '/space-jekyll-template' to ''
 url: "https://nameartem.github.io/"
-#"http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
 username: Artem Seleznev
@@ -13,7 +12,7 @@ user_title: Artem Seleznev - full stack ML
 github_username:  nameartem
 linkedin_public_url: seleznev-artem
 #disqus_username: loremipsum
-profile_picture: .../src/img/mainImg.png
+profile_picture: ../src/img/mainImg.png
 
 # Build settings
 markdown: kramdown
