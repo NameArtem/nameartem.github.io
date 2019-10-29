@@ -34,6 +34,7 @@
                 <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
             </a>
 
+
         </div>
 
         <ul class="recent">
@@ -58,14 +59,19 @@
               {% endfor %}
         </ul>
 
-
-  <div style="display: inline;">
-    <ul style="display: inline;">
-            <li>&#8227; <a href="" class="a_top_hypers"> Inbox</a></li>
-            <li>&#8227; <a href="" class="a_top_hypers"> Compose</a></li>
-            <li>&#8227; <a href="" class="a_top_hypers"> Reports</a></li>
+        <ul class="recent">
+            <p>Recent speeches:</p>
+             {% for speech in site.speeches limit:3%}
+                <li>
+                    <a title="Show my recent speech" href="{{ speech.url}}">
+                        <h2 class="post-title" itemprop="name">{{ speech.name }}</h2>
+                    </a>
+                </li>
+              {% endfor %}
         </ul>
-    </div>
+
+
+
 
     </div>
     {% include menu-search.html %}
