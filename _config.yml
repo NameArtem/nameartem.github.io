@@ -6,9 +6,8 @@ url: "https://nameartem.github.io/"
 
 # User settings
 username: Artem Seleznev
-user_title: Artem Seleznev - full stack ML
+user_title: Full stack ML | Lead of junior accelerator
 #email: lorem.lorem@ipsum.com
-facebook_username:
 facebook_username: seleznev.artem.info
 github_username:  nameartem
 linkedin_public_url: seleznev-artem
@@ -57,13 +56,9 @@ links:
       key_trigger: s #WARNING: search only works with "s"
 
 # projects in header index
-projects:
-  - name: fluany
-    url: https://github.com/fluany/fluany
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara
+# projects:
+#  - name:
+#    url:
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
