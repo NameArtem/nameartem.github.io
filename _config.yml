@@ -6,8 +6,7 @@ url: "https://nameartem.github.io/"
 
 # User settings
 username: Artem Seleznev
-user_title: Head of CVM Analytics @ Magnit
-#email: lorem.lorem@ipsum.com
+user_title: Head of CVM Department @ Magnit
 facebook_username: seleznev.artem.info
 github_username:  nameartem
 linkedin_public_url: seleznev-artem
@@ -34,26 +33,14 @@ links:
     - title: posts
       url: /posts
       key_trigger: 2
-    - title: projects
-      url: /projects
+    - title: project
+      url: /project
       key_trigger: 3
-    - title: JML
-      url: /jml
-      key_trigger: 4
+  section_2:
     - title: about me
       url: /about
-      key_trigger: 5
-  section_2:
-    - title: github
-      url: http://www.github.com/victorvoid
-      new_tab: true
-      key_trigger: g
-    #- title: twitter
-    #  url: http://www.twitter.com/victorvoid
-    #  key_trigger: t
-    - title: search
-      url: ""
-      key_trigger: s #WARNING: search only works with "s"
+      key_trigger: a
+
 
 # projects in header index
 # projects:
