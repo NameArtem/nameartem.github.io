@@ -2,7 +2,7 @@
 title: Artem's personal place on Internet
 description: "A little bit about my work"
 #baseurl: "/space-jekyll-template" # for test: remove string '/space-jekyll-template' to ''
-url: "https://nameartem.github.io/"
+url: "https://nameartem.github.io"
 
 # User settings
 username: Artem Seleznev
@@ -43,9 +43,9 @@ links:
 
 
 # projects in header index
-# projects:
-#  - name:
-#    url:
+projects:
+  - name: yandex
+     url: www.yandex.ru
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
