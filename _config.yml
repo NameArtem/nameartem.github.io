@@ -47,5 +47,8 @@ projects:
   - name: yandex
      url: www.yandex.ru
 
+#speeches:
+
+
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
